@@ -19,6 +19,8 @@ package com.example.android.marsrealestate.network
 
 import com.squareup.moshi.Json
 
+
+// data class that maps to the json response (this is used by Moshi to work with parsing the JSON res to an object Kotlin can use)
 data class MarsProperty(
         val id: String,
         @Json(name = "img_src")
